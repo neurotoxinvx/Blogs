@@ -100,7 +100,9 @@
 
 例：
 
-`<video src="http://live.jufan.tv/92383416/index.m3u8"></video>`
+```html
+<video src="http://live.jufan.tv/92383416/index.m3u8"></video>
+```
 
 ####jwplayer
 jwplayer是世界上最知名的web播放器，但是如需使用支持hls功能的jwplayer需要收费使用，目前映克使用的即jwplayer
