@@ -1,4 +1,4 @@
-###移动直播前端相关
+#移动直播前端相关
 > 本文面相准备开始从事移动直播的前端工作者，文中不涉及流媒体服务器及视频采集等内容
 
 ###一、播放
@@ -75,24 +75,24 @@
 	HTTP传输协议
 
 #####HDL
-HDl是一种较新的协议，目前各大视频云及CDN均已提供服务
+	HDl是一种较新的协议，目前各大视频云及CDN均已提供服务
 
 ######参考文献
-[流媒体协议介绍(rtp/rtcp/rtsp/rtmp/mms/hls)](http://blog.csdn.net/tttyd/article/details/12032357)
+> [流媒体协议介绍(rtp/rtcp/rtsp/rtmp/mms/hls)](http://blog.csdn.net/tttyd/article/details/12032357)
 
 ####音视频格式
 
 #####MP4
-兼容性最好，Android iOS均可直接播放
+	兼容性最好，Android iOS均可直接播放
 
 #####FLV
-在安卓手机上兼容性较好，由于iphone对于flash的支持较差，在苹果手机上无法直接播放
+	在安卓手机上兼容性较好，由于iphone对于flash的支持较差，在苹果手机上无法直接播放
 
 #####H.264
-MPEG-4的第十部分，无关兼容性问题
+	MPEG-4的第十部分，无关兼容性问题
 
 #####AAC
-音频格式
+	音频格式
 
 ###2、播放器
 ####video标签
