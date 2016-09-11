@@ -98,6 +98,10 @@
 ####video标签
 移动直播，顾名思义我们主要需要考虑的浏览器适配为webkit和safari为主的手机浏览器，这类手机对于HTML5中的新特性video兼容较好。在iPhone上我们可以直接使用video标签来播放HLS协议的直播流
 
+例：
+
+`<video src="http://live.jufan.tv/92383416/index.m3u8"></video>`
+
 ####jwplayer
 jwplayer是世界上最知名的web播放器，但是如需使用支持hls功能的jwplayer需要收费使用，目前映克使用的即jwplayer
 
@@ -110,12 +114,12 @@ ckplayer是国人开发的一款web播放器，在国内有较为壮大的社区
 
 [ckplyaer播放器支持的协议及格式](http://www.ckplayer.com/tool/#p_1_2_5)
 
-###技术选型
+###3、最终技术选型
 
 ####播放器： 
-- ckplayer 
+> ckplayer 
 
 ####流媒体协议：
-- 移动设备： HLS + H.264 +AAC
-- PC设备： RTMP + FLV
-- 同时兼容PC设备和移动设备： HDL + MP4
+> 移动设备： HLS + H.264 +AAC
+> PC设备： RTMP + FLV
+> 同时兼容PC设备和移动设备： HDL + MP4
